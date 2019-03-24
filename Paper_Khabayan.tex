@@ -1,0 +1,372 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{graphicx}
+\usepackage{longtable}
+
+\begin{document}
+
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{titlepage} 
+% Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for horizontal lines, change thickness here
+	
+	\center % Centre everything on the page
+	
+	%------------------------------------------------
+	%	Headings
+	%------------------------------------------------
+	
+	\textsc{\LARGE University of Salzburg}\\[1.5cm]
+	 \textsc{\large Department of Political Science and Sociology}\\[0.5cm] % Main heading such as the name of your university/college
+	
+	\textsc{\Large SE: Comparative political Economy}\\[0.5cm] % Major heading such as course name
+	
+	\textsc{\large SE NR: 300.741}\\[0.5cm] % Minor heading such as course title
+	
+	%------------------------------------------------
+	%	Title
+	%------------------------------------------------
+	
+	\HRule\\[0.7cm]
+	
+	{\huge\bfseries Partisan Fed }\\[0.4cm] 
+	\bfseries {How partisan politics in the US impact and control the Federal Reserve interest rate policies.}\
+	
+	\HRule\\[1.5cm]
+	
+	%------------------------------------------------
+	%	Author(s)
+	%------------------------------------------------
+	
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft}
+			\large
+			\textit{Author}\\
+			Wahagen \textsc{Khabayan} % Your name
+		\end{flushleft}
+	\end{minipage}
+	~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright}
+			\large
+			\textit{Supervisor}\\
+			Dr. Gabrielle   \textsc{Spilker} % Supervisor's name
+		\end{flushright}
+	\end{minipage}
+	
+	% If you don't want a supervisor, uncomment the two lines below and comment the code above
+	%{\large\textit{Author}}\\
+	%John \textsc{Smith} % Your name
+	
+	%------------------------------------------------
+	%	Date
+	%------------------------------------------------
+	
+	\vfill\vfill\vfill % Position the date 3/4 down the remaining page
+	
+	{\large\today} % Date, change the \today to a set date if you want to be precise
+	
+	%------------------------------------------------
+	%	Logo
+	%------------------------------------------------
+	
+	%\vfill\vfill
+	%\includegraphics[width=0.2\textwidth]{placeholder.jpg}\\[1cm] % Include a department/university logo - this will require the graphicx package
+	 
+	%----------------------------------------------------------------------------------------
+	
+	\vfill % Push the date up 1/4 of the remaining page
+	
+\end{titlepage}
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\abstract{}
+
+This paper examines the partisan relationship between the executive and legislative branches with the US Federal Reserve. The primary goal here is to look whether political institutional models have the possibility to explain the variation in policies of the Federal Reserve, compared to more traditional viewpoint of the institution, which claims it an independent entity. The analysis is based upon the findings of Caporale and Grier’s (1998), with the addition of newly modified models and set in different time period. With panel analysis intact, fixed effects models have been used to analyze the individual presidential impacts on the chosen policy of the Fed in the given timeframe. Nevertheless, the outcomes implied a different perspective on the issue, where the defined hypotheses were rejected and a possible model modification is suggested.
+
+\section{Literature Review}
+
+Understanding the political influence on the Federal Reserve (Fed) policy has been a long determined goal in the literature. The closest understanding of micro and macro interactions between political institutions and the Fed has been provided by Caporale and Grier (1998). As this paper will primarily base the assumptions of the partisan interaction on their conducted research, it is crucial to understand the underlaying foundation described by them.
+In theory they distinguish three general classes of models, bureaucratic independence, presidential partisan and congressional partisan. The literature suggests that the presumption to understand Fed independence can be distinguished in these three different models.\
+
+\ 1. Traditional macroeconomic version, where the Fed has well-defines function, based primarily on macroeconomic variables, by accepting its independence and its minimised constrains in the economy. \
+
+\ 2. Niskanen's (1971) public choice model, which views bureaucratic independence and prime for free pursuit of interest, power and wealth, which in the case of the Fed, its pursuit of interaction with commercial banks, without political constrains. These unconstraint leadership, says Friedman (1982) leads to inflationary bias to the monetary policy of the country. \
+
+\ 3. The third model originates in Hakes's (1990) analysis, where it indicates different monetary policy reaction, depending on the selected Fed chairmen. These assumptions are primarily built on the identity and the preferences of the chairmans in relation to their monetary policy.
+ 
+Based on this assumptions, the two primary models: presidential and congressional, which will be analysed in this paper, were drawn from Caporale and Grier's (1998) argumentation. The argumentation for the presidential partisan model go back the works of Hibbs (1977) and Chappell and Keech  (1986), where monetary policy is claimed to be more affluential under democratic leaders ship vs republican, where just as the later, provides underlying party position analysis and the implementation of campaign promises. Just as Caporale and Grier (1998) claim, not all democratic presidential leaders show the conclusions of Hibbs, instead Beck (1982) affirms that the impacts are rather administration specific.
+On the legislative side of argumentation, the literature suggests, that liberal legislators will prefer more expansionary policies, where the conservative representatives more limiting. Kevin Grier's (1991) analysis of the influence of political action committees, show that the change in Senate Banking Committee leadership towards more liberal/democrat politicians, dent to positively demonstrate the relationship with expansion of monetary policy. 
+Boettke and Smith (2013) in their analysis of Fed independence found that the autonomy of the Fed has been compromised by precise groups which are capable of influencing its policies. They claim that the concept of influence should be deemed into future analytical researches more seriously, as they are not separate channels of communication but have become fundamental part in reviewing policy outcomes.
+\
+
+Interestingly, Falaschetti (2002) finds that monetary policy is a significantly weaker, in form of controlling, when one of the oversight mechanism, such as the executive or the legislative,  is controlled by a different party than the other branch. In the analysis, the appointment of leadership and oversight are signified as two primary remaining pressure channels for the government over the Fed.
+
+\ Finally, it should be noted that the literature is also inconsistent in the choice of analysis when it comes to the Fed. While Timberlake (1995) analyses Harvrilesky approach, he presents the significance of the Senate banking Committee, which signify negative correlation with Fed Fund Rates and expansionary policies. He also analyses these interactions in the context of the executive branch and the House banking committee. Nevertheless, Caporale and Grier (1997) argue that the change of presidential administration have better explanatory power when analyzing the treasure-bill rate shift, instead of looking the appointed chairmanship of the Fed, which in theory is an independent position in the institution.
+
+\section{Theoretical Foundation}
+
+For modelling the relationship between political system and macro economic policy,  Hibbs's (1977) conclusion that, macroeconomic policies pursued by left and right wing governments tend to align with their political constituencies, is a prime pathway for this paper. The theoretical literature suggests, Down's (1957) assumption, that political parties do not differentiate in their view points regarding economy, unless it effects their voting chances. Primarily, the idea here is that when there is a two party system, for a given economic structure, the opposition parties tend to present same economic polices and platforms for the voters once they get elected, even if they differentiate in their core views. Additionally, Down claims that when parties are uncertain about the position of the voters, their primary goal remains to know the preference of their taste.\
+
+However, as this theory is the opposite what it is pursuit to be understood in this paper, Alesina's (1987) theoretical assumptions will be implemented for the argumentation part. Compared to the initial theory by Downs, here the prime assumption is that in two party systems , parties differentiate in their economic policies as they represent different constituencies. This contradicts also the argument that once parties are elected in the office they tend to follow the same principle goal, as the other would have. The theory argues that both parties are uncertain about the preferences of the voters, even if they have information about the distribution of their voters preferences. As policymaking is only accessible through elections, parties  depend heavily on election strategies and different policy objectives to gain voters.
+\
+
+Because parties care about the effects of their incentives, different parties are assumed will handle the economic policies differently once they are in tact of the government. This analysis by Alesina (1987) is backed up especially for the case of the US. Basing around these conclusions, this paper is deem to analyze the impact of partisan politics in the US from both the political and congressional perspective. Following research question will guide the notions of the analytical framework.
+\\
+
+\textit {"In what extent does political partisanship of the executive and legislative branch effect the Federal reserve interest rate policy".}
+\\
+
+Keeping in notion that the Fed in theory is an independent entity from political pressure and the formalized hypotheses contradict the traditional assumption of independence.
+
+1. Republican executive leadership pressures for more contractionary monetary policies.\
+
+2. Republican rule of Congress correlates with contractionary monetary policies.
+
+Similar hypotheses were tested by Caporale and Grier (1998), where they found that the more the control of the executive branch and House and Senate banking committees were conservative, the stronger did they correlat with contractionary or tighter monetary policies.
+
+\section{Research Design and Operationalization}
+
+This papers research design heavily draws components from Caporale and Grier's (1998) research mechanism. The primary logical assumption concludes that partisan leadership either leads to tighter or expansionary monetary policies. Contractionary or tighter monetary policy \footnote{https://www.investopedia.com/terms/t/tightmonetarypolicy.asp} is the implementation of such an action, which would slow down overheated economic growth. In scenarios, where economic growth is accelerating, central banks tend to implement such policies to curb an inflation when it is running to high. By increasing interest rates, the borrowing process becomes costly and unattractive. Such mechanism intend to temporarily cool down borrowing with either policy measures or by selling out central bank's balance sheet. It should be noted that this policy is different from tight fiscal policies, where legislative branch usually increases tax rates or/and decreases government spending. \
+
+As mentioned earlier, the presumed casual relationship leads for republican candidates to implement tighter measures of monetary policy. While, Caporale and Grier analyze this relationship over the rate of 36 years, from 1961 to 1996, with their given indications and leadership variables, this paper will continue from their last defined presidential threshold, starting with Herbert Walker Bush administration, up till the Trump Administration. The main independent/ X variable was chosen as a dummy variable, which would indicate the executive leaderships political belonging, with either 1 for republican or 0 for non-republican/democrat. Based around this indication, the Federal Fund Rates \footnote{https://fred.stlouisfed.org/series/FEDFUNDS} was selected as the main dependent/ Y variable. \
+
+The rate indicates the amount the borrowing institution, such as other banks, in weighted average pay to the lending institution, the Fed. Additionally, the interest rate is not only a policy measure implemented by the leadership, but is also determined by the market, under the influence of Fed open market operations. This rate index is crucial for understanding the U.S. financial market, as it further impacts other interest rates, such as the prime rate (the rate banks charge their customers) and other long term interest rates, such as mortgages, private loans, savings etc. The operationalization for the Y, was not mere duplication of the raw data, but was narrowed down to quarterly basis from 1989-2018: Q1March, Q2June, Q3September, Q4December.
+
+Drawn from Douglas Hibbs's (1977) conclusions, where he implemented a dummy for partisan analysis of the policy effects, which is the main X of this analysis, Nathenial Beck's (1982) counter arguments about partisanship will also be included for the models in this paper. In fact, under the assumption that not all republican and democrat presidents are the same, fixed-effects of individual Presidents, H.W.Bush, Clinton, Bush, Obama and Trump will be added to the models. Further, the same principle is applied to the Fed chairmanship positions, which include Alan Greenspan, Bernenke, Yellen and latest Jerome Powell. Now this will be especially interesting to analyze, as the outlined assumptions, the theory and the literature review all send out mixed messages regarding the independence of the Fed. On paper, the Fed Chairmanship is an independent entity, where the decisions are and should be independent from outside pressure. The chairmanship is nominated by the President of the U.S. and has a term of 4 years, which either is reconfirmed by the Senate or a new one is selected. Interestingly, the Fed chairmans have been overlapping during multiple presidential eras, especially in the case of Alan Greenspan, which went through HW Bush, Clinton and Bush. This is presumed to function as a control for observing independence of the position from partisanship, in cases where the chairman worked both under republican and democrat presidents.
+
+Compared to the models of Caporale and Grier (1998), where a distinct legislate branch analysis was conducted by using Americans for Democratic Action (ADA) scores, the outlined models here in regards to the legislative branch are more simpler. In fact, simplified dummies for the control of the House of Representatives and the Senate, with 1 being under Republican majority leadership and 0 for non/democrat, will be used to investigate the pressure on the Fed from other chamber than the executive. However, it is acknowledged that this is slight oversimplification for the underlying understanding, compared to the initial papers usage of voting behaviour of the House and the Senate Finance Banking committee members. That said, the final control mechanism shows whether unified government had been in place. This indicator, also being a dummy variable, shows whether all branches of the government are controlled by the same party of leadership in the executive, with 1 for being so and 0 for not.
+
+The selected method here is panel analysis, which includes time specific indexes and individual indexes. The given equation is as the following:
+
+\begin{center}
+
+Y(it)= \alpha (it) + \beta (it) * X(it) ..... +u(it)
+
+\end{center}
+
+Because it is assumed that individual components, in our case being the Presidents, are correlated with the main x, which is the dummy for republican candidates, it is customary to threat \mu i \end  s as further set of parameter. This is called the fixed effects (also known as within) model, usually estimated by OLS on transformed data, and gives consistent estimates for \beta \end .. (Croissant & Millo, 2008). This is done as the following:
+
+\begin{center}
+
+Y(it)= \alpha (it) + \beta * X(it) + \mu (i)..... +\epsilon(it)
+
+\end{center}
+
+\section{Results}
+
+The dataset for the analysis includes quarterly Fed interest rates, starting from H.W. Bush era of presidency, up till the Trump's presidency. The initial baseline rates started off in 1989 with 9,85, and decreased through the years to 2,27. Before moving towards understanding the relationship between partisan political leadership and Fed policy measures, some descriptive statistics of time-series data should be outlined.
+At its most basic level simple index number should present the rate development in key points of the presidencies. The calculation for the change is as the following:
+
+\begin{center}
+	
+	\iota (t) = (Yt)/(Y0) * 100
+	
+\end{center}
+
+	Where i (t) stands for the rate number at time t, Yt, is the time series value at time t, and Y0 is the time series value at the base period.
+	
+	During the HW Bush presidency, the interest rates started off 9,85 and finished off with 2,92, resulting 89,9 \% decrease, persuing an expansionary policy.
+	During the Clinton era, rates started off with 3,07, finishing with 6,40, with 108 \% increase from the start of his administration. Still, with 35,03 \% decrease from HW Bush's initial pursued rate. The Bush Jr. Administration, inherited 5,31 rates, and decreased it by 96,93 \%. The Obama administration kept the interest rates low, with only marginal difference, increasing it from 0,18 to 0,54 by end of 2016. Finally, Trump administration in its first two years, saw increase of 187,34 \% rate.
+	On average, the interest rates indicate mean of 3,131 and median of 3,000, with maximum being 9,85 and minimum of 0,070. 
+	  These results naturally contradict the initially outlined assumptions about partisan leadership. In fact, the opposite reactions can be observed from the administrations. Nevertheless, it should be noted that here financial crisis of 2008 is not being necessarily included in the assumption, as the average influence of executive leadership on quarterly Fed rates will be analysed instead of explaining the impact of certain events.
+
+The data of the interest rate seems to be stationary, meaning it is not White Noise: primarily this means that the sequence of data is not random and can be predicted. This was tested with Ljung-Box test, where the p-Value was < 0,05, meaning the H0 for Ljung-Box was rejected (that the time-series is not autocorrelacted), after the transformation of the data was done. This can be observed in the Figure 2.
+
+ The reason for the transformation is due to fact, that overall it needs to be determined that the time series of the interest rate is constant in mean and variance and is not dependent on time. Done with autocorrelation function, it is expected that the transformed data goes back to O in each unit. This is determined with the blue dots on the figure 2, which is only the first lag on the bottom left, whereas in the trend data (bottom right) almost half of the cases exceeds the confidence interval, resulting to the conclusion that the trend data is not stationary.
+ Additionally, Augmented Dickey–Fuller test was conducted, to see whether unit root is present in the stationary transformed data. Being at sig level 0,01, the H0 for the test was rejected. Also the initial data, non transformed version, indicates a 0,03 alpha level. At its most basic level, these tests indicate that the data of Fed interest rate is stationary, meaning, change of levels throughout the period do not depend on time. This is especially critical for the analysing the dependence of partisanship and policy approach for the Fed, as it is assumed that there is not a seasonal dependency, but changed in rates depend on policy and leadership in executive. 
+\
+
+Another way to observe the date is to look at the volatility in the years. With major changes towards the negative by the introduction of expansionary policies, can be observed in 2001 and 2008 [Figure1]. In fact, from basic descriptive observations, the data indicates the reserved picture of the relationship between partisanship and policy measures. While, Caprale and Grier (1998) claimed that their data indicated tight Fed interest policies with Republican candidates, almost the reversed picture can be subtracted from the Figure 1. That said, no further conclusions can be made from the base line data of the Y.
+
+\begin{figure}
+	\center
+	\includegraphics[width=1.2\textwidth, angle=90]{Rplot}
+	\caption{Progression of the Fed interest rates}
+\end{figure}
+
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.50]{Stationarytest}
+		\caption{Stationary Test}
+\end{figure}
+
+
+Finally, the standard deviation of the data lays at 2.61, indicating that about 60 \% of the cases are above and below the mean (3.13).
+\
+
+Whether the presented rates correlate with the partisanship dummy, which remarks 1 for republican and 0 for non/democrat are as the following: On a simpler level, the relationship between presidential dummy and the interest rates indicated a coefficent of 1.108, in case a republican candidate is present, however by lacking any major conclusion about the relationship. This would mean that when republican presidents are in tact, the fed interest rates seem to go higher by 1.108 \%. With an R-Square of 0,04, and significance level at just 0.1, the variable doesn't seem to give away much information about the association. Alone with this indication, we would assume that partisanship at the executive level doesn't determine possible Fed policy support. Nevertheless the additional models present different assumptions.
+
+By introducing legislative branch into the model, we can observe some interesting developments. The Table 1/ model 1, indicates that a republican president in tact with a unified government, where a party control both floors of the legislative branch/Congress and the executive branch, the results turn highly significant. The primary x maintains its effect of high rates on the Fed with coefficient of 1.373. Yet, a unified government, which was intact during Obamas and Trumps first term, and starting 2003 Bush Jr's administration, correlates negatively (-1,712). That said, the adj. R in this model shows a weak explanatory power, with just about 8\% despite significant F Statistic, which measures the quality of the model. \
+
+
+Further, by distinguishing between the control of the congress floors, in the model (2) Senate and House dummies indicate republican leadership. Interestingly, when in tact, House tends to impact the Fed interest rates negatively, contradicting the general presumptions that republicans tend to favour higher rate and control the boost of economic performance of the country. Certainly, the main dummy keeps its positive coefficient, yet loses the significance level. The second model also gains additional explanatory power in its adj. R, pointing at 16,5 \% with high level of significance.
+By large, the models also undermine micro interactions, as they tend to overview the relationship from categorical perspective. While the final conclusions will not be based on these two models, it should be noted that in the model 2, the Hypothesis 0 for the executive leadership would have been accepted.
+Nevertheless, in the Table 2 model 3, executive leadership is put in test in relation with fixed-effects for the individual chairmans through out the years, by leaving Jerome Powell out (-1). Interestingly, a republican candidate in place, the Fed chairmanship absorbs the significance of the executive partisanship. This primarily could mean for this paper that a republican candidacy seems to have less impact of Fed interest rates, when individual Chairmans are analyzed in relation to them. Further, such observation would claim that the Fed remains an independent entity, as it recuses itself from partisan politics. \
+
+
+In the model 2 of Table 2, the legislative branch republican majorities tend to have more power, due to their significance level, over the rates, even when the chairmans are concluded in the analysis. Here, it should be recognised that Congress Banking Committees have the responsibility to overview financial situation in the control, ranging from price controls, federal monetary policy, financial aid etc. However, specifically the House Committee on Financial Services seems to have more power and adjusts towards the counter(-) conservative approach to the monetary policy. This can be due to the fact that the House committee has direct oversight on the works of the Fed, and so it plays a more significant role in its partisanship approach compared to Senate. This could also explain the variations in their coefficients, as the Senate republican majority seems to impact the Fed policy towards the the increase of rates (1.699), whereas House decreases it. Both floors indicate to have highly significance aspect to them.
+The individual chairmans present a different scenario, where the longest serving chairman, Alan Greenspan, has the only significant rate among the selected. These individual characteristics are all in contrast to Jerome Powell, and are interpreted just as. In fact, Greenspan, which was first nominated by Ronald Reagan, seems to have positive impact with coefficent of 2,713 on interest rate, whereas in contras, Bernanke almost doesn't show much of an effect in neither of the three model. \
+
+
+In comparison to model 3, the model 2 has almost same amount of explanatory power, with adj. R at 48 \%, and overall highly significance for the model. We can observe that in this constellation, the presidential dummy in the model 3 seems to have a weak an impact on the interest rates and is highly insignificant. This is especially interesting, since Caporale and Grier (1998) in their model almost identical to this, claimed to observe high significance level for the republican dummy, when it was observed in relation to past Fed chairmen. However, they observed completely different period of presidencies and had higher N in their analysis, with 36 years compared to 21 in this analysis.
+
+In the final model, table 3, we can conclude the best representation of partisanship and Fed interest rates. Indeed, the individual presidential dummies all indicate high significance. The model has been adjusted, by removing President Bush and his era Fed Chairman, Bernanke, as it was signifying high rates of multicolinarity when variance-inflation was calculated. Overall, the model shows that in comparison to Bush, the presidents line up with the partisanship conclusion in a mixed way. Where HW Bush seemed to have impact on interest rates in positive/increasing way, Trump dummy indicates a negative rate. Same goes for Clinton correlating positively and Obama negatively. The Fed Chairmen on the other hand, do not seem to have enough significance level when it is put in the same model as the presidents. Only Greenspan seems to preserve previous significance, with coefficient of -2.346. 
+From institutional perspective, the House still signifies its role, with positive coefficient of 0,927. Additionally, the final model amounts the highest explanatory power at 78 \% and with significant F Statistic.
+ 
+\section{Conclusion}
+
+The analysis in this paper shows some interesting distinctions from the primary source of thought. Where Caporale and Grier (1998) found significant outcomes, the main independent X, which was the dummy of partisanship didn’t present enough explanatory power. Indeed, the main question remains the operationalization of the selected variables. Compared to the individual fixed effects of the presidents, which indicated better results in explaining the variance of the Fed policy, the dummy for presidency requires modification. By either including more cases in the analysis, for example, more past presidents, instead of just five, or to look further for partisan distinctions. An index for presidential partisanship would be additional asset for controlling the phenomena. \
+
+	Nevertheless, the individual effects determined the wanted outcome. By looking at the final model, it could be argued that executive partisanship indeed has some kind of impact of the Fed policy. Yet, some results seem to show the opposite in their pursuit of policy preference, compared to the hypothesis outlined in the beginning and the claims in the literature. It remains a crucial part of analysis, when executive leadership is being associated with the Fed policy, since political pressure is being increased drastically. This can be observed as recently as by the Trump administration, where Fed chairman Powell is put under pressure and blamed for market sell-off, reports CNBC \footnote{https://www.cnbc.com/2018/11/27/trump-attacks-fed-chair-powell-im-not-even-a-little-bit-happy-with-my-selection-of-jay.html}. Given the nature of the conflict, even replacement for the position has been suggested. Such situation is especially critical, because as mentioned in the beginning, the Federal Reserve, in its nature, should not be controlled and pressured by the executive leadership, instead the House oversight committee has to evaluate the performance of the Fed. \
+	
+	This brings to the next issue of the analysis. The indicators for the House and Senate showed selected relationship and impact on the Fed interest rates. Whether the operationalization as a dummy for control of either the floor was a good selection for the analysis, remains open for criticism. Indeed, Caporale and Grier had a different take on this kind of measurement, by looking at voting behaviour of the individual members on topics regarding the Fed and other economic outputs. This naturally gives more polished picture about the behaviour of partisanship when it comes down to oversight and legislative pressure. However, besides the voting behaviour of the members, similar dummy control and the share of House and Senate democrats was intact in their analysis. It could be argued that the indicators for controlling legislative lacked any deep investigation. A major suggestion, which was not seen in Caporales and Grier’s paper either, would be to look at finance committees in dept, not just voting behaviours but also for partisan indicators for the members. That said, the outcome in this paper’s analysis, found that there is indeed a relationship between the control of either of the chambers in regard to Fed policy rates. Nevertheless, they showed inconsistency with their partisanship, which is why the second hypothesis will also be rejected. \
+	
+	Finally, the construction of the models suggested that there is a potential to reconfigure the models, by either introducing more focused variables, which would capture the partisan dynamics carefully, or to look for other institutional variables which could further support understanding the relationship. Primarily, the field of competences provided by the Fed is enormous, which is why I suggest a specified multilevel analysis, where each branch of the government is analyzed closely. This includes also control for other economic indicators, which are in the overview for the executive and the legislate branch and the Federal Reserve.
+
+\section{Bibliography}
+
+Alesina, Alberto. 1987. “Macroeconomic Policy in a Two-Party System as a Repeated Game.” The Quarterly Journal of Economics 102(3):651–78. \\
+
+
+Beck, Nathaniel. 1982. “Presidential Influence on the Federal Reserve in the 1970s.” American Journal of Political Science 26(3):415–45. \\
+
+
+Boettke, Peter J. and Daniel J. Smith. 2012. Federal Reserve Independence: A Centennial Review. SSRN Scholarly Paper. ID 2135232. Rochester, NY: Social Science Research Network. \\
+
+
+Caporale, Tony and Kevin B. Grier. 1998. “A Political Model of Monetary Policy with Application to the Real Fed Funds Rate.” The Journal of Law and Economics 41(2):409–28. \\
+
+
+Caporale, Tony and Kevin B. Grier. 2000. “Political Regime Change and the Real Interest Rate.” Journal of Money, Credit and Banking 32(3):320–34. \\
+
+
+Chappell, Henry W. and William R. Keech. 1986. “Policy Motivation and Party Differences in a Dynamic Spatial Model of Party Competition.” The American Political Science Review 80(3):881–99. \\
+
+
+Croissant, Yves and Giovanni Millo. 2008. “Panel Data Econometrics in R: The Plm Package.” Journal of Statistical Software 27(1):1–43. \\
+
+
+Falaschetti, Dino. 2002. “Does Partisan Heritage Matter? The Case of the Federal Reserve.” The Journal of Law, Economics, and Organization 18(2):488–510. \\
+
+
+Friedman, Milton. 1982. “Monetary Policy: Theory and Practice: Reply.” Journal of Money, Credit and Banking 14(3):404–6. \\
+
+
+Hakes, David R. 1990. “The Objectives and Priorities of Monetary Policy under Different Federal Reserve Chairmen.” Journal of Money, Credit and Banking 22(3):327–37. \\
+
+
+Hibbs, Douglas A. 1977. “Political Parties and Macroeconomic Policy*.” American Political Science Review 71(4):1467–87. \\
+
+
+Niskanen, William A. 1971. Bureaucracy and Representative Government. Transaction Publishers. \\
+
+
+Timberlake, Richard H. 1995. “Review of The Pressures on American Monetary Policy.” Public Choice 82(1/2):197–200. \\
+
+
+Toma, Mark. 1982. “Inflationary Bias of the Federal Reserve System: A Bureaucratic Perspective.” Journal of Monetary Economics 10(2):163–90.
+
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Mar 18, 2019 - 20:03:46
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+  \caption{Executive and Legislative} 
+  \label{} 
+\small 
+\begin{tabular}{@{\extracolsep{10}}lD{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-3} 
+\\[-1.8ex] & \multicolumn{2}{c}{Fed Interest Rate} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)}\\ 
+\hline \\[-1.8ex] 
+ Republican & 1.373^{***}$ $(0.464) & 0.716$ $(0.447) \\ 
+  Unified & -1.712^{***}$ $(0.491) &  \\ 
+  Senate &  & 2.411^{***}$ $(0.585) \\ 
+  House &  & -2.933^{***}$ $(0.629) \\ 
+ \hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{120} & \multicolumn{1}{c}{120} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.134} & \multicolumn{1}{c}{0.208} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.096} & \multicolumn{1}{c}{0.165} \\ 
+F Statistic & \multicolumn{1}{c}{8.831$^{***}$ (df = 2; 114)} & \multicolumn{1}{c}{9.866$^{***}$ (df = 3; 113)} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Mar 18, 2019 - 21:00:59
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+  \caption{Executive/ Legislative and Fed Chairmanship} 
+  \label{} 
+\small 
+\begin{tabular}{@{\extracolsep{10}}lD{.}{.}{-3} D{.}{.}{-3} D{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Fed Interest Rate} \\ 
+\\[-1.8ex] & \multicolumn{1}{c}{(1)} & \multicolumn{1}{c}{(2)} & \multicolumn{1}{c}{(3)}\\ 
+\hline \\[-1.8ex] 
+ Republican & 0.520$ $(0.387) &  & 0.324$ $(0.368) \\ 
+  Senate &  & 1.694^{***}$ $(0.499) & 1.699^{***}$ $(0.499) \\ 
+  House &  & -2.230^{***}$ $(0.498) & -2.161^{***}$ $(0.505) \\ 
+  Greenspan & 2.948^{***}$ $(1.058) & 2.713^{***}$ $(0.986) & 2.892^{***}$ $(1.008) \\ 
+  Bernanke & -0.029$ $(1.101) & 0.013$ $(1.055) & 0.255$ $(1.092) \\ 
+  Yellen & -1.062$ $(1.169) & -1.028$ $(1.060) & -0.784$ $(1.097) \\ 
+ \hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{120} & \multicolumn{1}{c}{120} & \multicolumn{1}{c}{120} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.437} & \multicolumn{1}{c}{0.517} & \multicolumn{1}{c}{0.521} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.402} & \multicolumn{1}{c}{0.483} & \multicolumn{1}{c}{0.482} \\ 
+F Statistic & \multicolumn{1}{c}{21.719$^{***}$ (df = 4; 112)} & \multicolumn{1}{c}{23.805$^{***}$ (df = 5; 111)} & \multicolumn{1}{c}{19.926$^{***}$ (df = 6; 110)} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table}
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Mar 18, 2019 - 22:20:54
+% Requires LaTeX packages: dcolumn 
+\begin{table}[!htbp] \centering 
+  \caption{Executive/ Legislative and Fed Chairmanship 2} 
+  \label{} 
+\small 
+\begin{tabular}{@{\extracolsep{10}}lD{.}{.}{-3} } 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & \multicolumn{1}{c}{Fed Interest Rate} \\ 
+\hline \\[-1.8ex] 
+ Senate & 0.312$ $(0.377) \\ 
+  House & 0.927^{**}$ $(0.413) \\ 
+  HWBush & 5.442^{***}$ $(0.530) \\ 
+  Clinton & 3.064^{***}$ $(0.378) \\ 
+  Trump & -3.126^{***}$ $(0.844) \\ 
+  Obama & -3.868^{***}$ $(0.494) \\ 
+  Greenspan & -2.346^{***}$ $(0.503) \\ 
+  Yellen & -0.492$ $(0.492) \\ 
+  Powell & 0.326$ $(0.996) \\ 
+ \hline \\[-1.8ex] 
+Observations & \multicolumn{1}{c}{120} \\ 
+R$^{2}$ & \multicolumn{1}{c}{0.803} \\ 
+Adjusted R$^{2}$ & \multicolumn{1}{c}{0.781} \\ 
+F Statistic & \multicolumn{1}{c}{48.521$^{***}$ (df = 9; 107)} \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table}
+
+\end{document}
